@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/portfolio"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/resume_pic_less_than_50kb"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="gravity"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textSize="25dp"
+        android:shadowColor="@color/black"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Abhishek Pandey" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Android developer" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSkill"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:shadowColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            android:text="skills" />
+
+        <Button
+            android:id="@+id/btnEdu"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:shadowColor="@color/black"
+            android:textSize="22dp"
+            android:textColor="@color/white"
+            android:text="Education details" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnWork"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:shadowColor="@color/black"
+            android:textColor="@color/white"
+            android:text="work" />
+
+        <Button
+            android:id="@+id/btnAch"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:shadowColor="@color/black"
+            android:textColor="@color/white"
+            android:text="Achievements" />
+    </LinearLayout>
+
+
+</LinearLayout>
